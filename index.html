@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <style>
+     <style>
         body {
             background-color:white;
             font-family: Helvetica, sans-serif;
@@ -10,32 +10,39 @@
         ul {
             list-style-type: none;
             margin: 0;  
-            padding: 0;
+            padding: 3px;
         }
         li { 
             display: inline;
+            padding:3px;
         }
+        a {
+            text-decoration: none
+        }
+        
+        footer {
+        list-style-type: none;
+        margin: 0;
+        background-color: #f2f2f2;
+        position: fixed;
+        width: 100%;
+        height: 300px;
+           }
+         
     </style>
-</head>
-<body>
-    <!--
-    <style>
-    body {background-color:white;} 
-    </style>
-    -->
-    <ul>  
+    <ul>
         <li><a href="https://www.google.com/">About</a></li>
         <li><a href="https://www.google.com/">Store</a></li>
-        <li><a href="https://www.google.com/">Gmail</a></li>
-        <li><a href="https://www.google.com/">Images</a></li>
-        <li><a href="https://www.google.com/">Apps</a></li>
-        <li><a href="https://www.google.com/">Sing In</a></li>
-    </ul>
-    
+        <li style=float:right><a href="https://www.google.com/">Sign In</a></li>
+        <li style=float:right><a href="https://www.google.com/">Gmail</a></li>
+        <li style=float:right><a href="https://www.google.com/">Images</a></li>
+       </ul>
+</head>
+<body>
     <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" 
          style="width:500px;height:px; margin:200">
          
-    <form action="search" style= "margin:20; position: relative; left: 245px; bottom: 195px">
+    <form action="search" style= "margin:20; position: relative; left: 240px; bottom: 195px">
         <input type="text" style= width:500px;position:relative;right:70px><br>
         <input type="submit" value="Google Search">
         <input type="submit" value="I'm Feeling Lucky">
@@ -43,24 +50,13 @@
 
 <footer>
     <style>
-    footer {
-        list-style-type: none;
-        margin: 0;
-        background-color: #f2f2f2;
-        position: fixed;
-        width: 100%;
-        height: 100px
-    }
     
-    li { 
-        display: inline;
-    }
+   
     </style>
-
     <ul>
-        <li><a href="https://www.google.com/">Privacy</a></li>
-        <li><a href="https://www.google.com/">Terms</a></li>
-        <li><a href="https://www.google.com/">Setting</a></li>
+        <li style=float:right><a href="https://www.google.com/">Privacy</a></li>
+        <li style=float:right><a href="https://www.google.com/">Terms</a></li>
+        <li style=float:right><a href="https://www.google.com/">Setting</a></li>
     </ul>
 </footer>
 
